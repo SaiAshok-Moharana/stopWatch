@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(255,250,255);
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+.container{
+    width: 100vw;
+    height: 80vh;
+    
+}
+.watch{
+    width: 100vw;
+    height: 70vh;
+    display: inline;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.time{
+    width: 60vw;
+    height: 15vh;
+    border-radius: 2vmin;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    box-shadow: 4px 5px 16px 0px rgba(8, 8, 8, .6)
+}
+.all-btn{
+    
+}
+button{
+    width: 15vmin;
+    height: 5vh;
+    margin-top: 3vmin;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 2vmin;
+    color: rgb(255,0,123)
+}
